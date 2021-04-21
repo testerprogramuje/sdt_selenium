@@ -56,7 +56,6 @@ public class ContactUsFormPage extends BasePage {
         emailInput.sendKeys(message.getEmail());
         orderReferenceInput.sendKeys(message.getOrderReference());
         messageTextarea.sendKeys(message.getMessage());
-        clickOnSendButton();// TODO
     }
 
     private boolean isAlertBoxDisplayed(WebElement box) {
